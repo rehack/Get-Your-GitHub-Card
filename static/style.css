@@ -1,0 +1,65 @@
+/*
+ * @author rccoder
+ * @email rccoder@foxmail.com
+ * @github github.com/rccoder/GitHub-Card.git
+ */
+body {
+	background-color: #434343;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+#github-card .box {
+	position: absolute;
+	background-color: #fff;
+	padding-bottom: 20px;
+	width: 260px;
+	left: 40%;
+	border-radius: 1px;
+	border-color: #fff;
+	font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+	color: #333;
+}
+#github-card .box .avatar img{
+	display: block;
+	width: 38%;
+	border-radius: 100%;
+	margin-left: 33%;
+	margin-top: 20px
+}
+#github-card .box .username p{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 700;
+	height: 1%;
+}
+#github-card .box .username {
+	padding-bottom: 10px
+}
+#github-card .box .stats {
+	padding: 10px 20px 56px;
+	border: 1px solid #eee;
+}
+#github-card .box .stats .stats-vcard{
+	float: left;
+	text-align: center;
+	width: 33.333%;
+	font-size: 1em;
+	text-transform: capitalize;
+}
+#github-card .box .stats .stats-vcard strong{
+	display: block;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    color: #4078c0;
+}
+#github-card .box .stats .stats-vcard span {
+	color: #434343
+}
+#github-card .box .details .detail-list {
+	padding-top: 0.7em;
+}
