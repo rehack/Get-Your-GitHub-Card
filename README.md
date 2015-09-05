@@ -1,5 +1,5 @@
 # GitHub-Card
-Display GitHub Information On A Web Page
+Display Your GitHub Information On A Web Page
 
 ![demo.png](./static/img/demo.png)
 
